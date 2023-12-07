@@ -8,11 +8,15 @@ import AnimalApp from './components/AnimalApp.jsx'
 import Message from './components/Message.jsx'
 import Counter from './components/Counter.jsx'
 import FunctionClick from './components/FunctionClick.jsx'
+import EventBind from './components/EventBind.jsx'
+import Person from './components/Person.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Person />
+    {/*<EventBind />
     <FunctionClick />
-    {/*<Counter />
+    <Counter />
     <Greet name="Bruce" heroName="Batman">
       <p>This is a children prop</p>
     </Greet >
